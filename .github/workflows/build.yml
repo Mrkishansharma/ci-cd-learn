@@ -1,6 +1,6 @@
 on : push
 jobs : 
       first-jobs
-          runs-on : macos-latest, windows-latest, ubuntu-latest
+          runs-on : windows-latest
           steps :
                 - run : node --version 
